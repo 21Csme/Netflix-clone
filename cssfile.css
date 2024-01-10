@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    position: relative;
+    height: 688px;
+    width: auto;
+    background-color: black;
+}
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+.logo{
+    background-image: url("1.jpg");
+    background-size: cover;
+    height: 43rem;
+    width: 95rem;
+    z-index:2;
+}
+.class{
+    background-image: url("Netflix-Logo.png");
+    background-size: cover;
+    height: 4rem;
+    width: 9rem;
+    position: absolute;
+    margin-left: 180px;
+    z-index:3;
+}
+.options{
+    background-color: transparent;
+    color: white;
+    margin-left: 940px;
+    margin-top:20px;
+    width: 8rem;
+    height: 2.1rem;
+    border-radius: 5%;
+    border-width: 2px;
+    font-weight: 700;
+}
+.sign{
+    background-color: #E30D14;
+    color: white;
+    margin-left: 1270px;
+    margin-top:20px;
+    width: 5rem;
+    height: 2.1rem;
+    border-radius: 6%;
+    border-width: 0px;
+    font-weight: 700;
+    z-index:3;
+    position: absolute;
+}
+.mov{
+    z-index:3;
+    position: absolute;
+}
+.first{
+    background-color: transparent;
+    color: white;
+    font: arial;
+    font-size: 48px;
+    font-weight:bold;
+    margin-left: 330px;
+    margin-top:280px;
+}
+.second{
+    background-color: transparent;
+    color: white;
+    font: arial;
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 560px;
+    margin-top:20px;
+}
+.third{
+    background-color: transparent;
+    color: white;
+    font: arial;
+    font-size: 24px;
+    margin-left: 400px;
+    margin-top:20px;
+}
+.inputplace{
+    background-color: transparent;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font: arial;
+    font-size: 20px;
+    margin-left: 480px;
+    width:398px;
+    border-radius: 2%;
+    border-width: 2px;
+    height: 56px;
+    margin-top:20px;
+}
+.butt123{
+    color: white;
+    background-color:#E30D14;
+    font: arial;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 550;
+    border-radius: 2%;
+    border-width: 0px;
+    width:209px;
+    height: 56px;
+    margin-top:20px;
+}
+.black-line{
+    width:auto;
+    height:11px;
+    background-color:#272727 ;
+    display: flex;
+}
+.engtv{
+     width:auto;
+     height:481px;
+     background-color: black;
+     display: flex;
+}
+.block-12{
+    width:544px;
+    height:auto;
+    display:inline-block;
+}
+.enj-1{
+    font-size: 48px;
+    color: white;
+    font: arial;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-left: 206px;
+}
+.enj-2{
+    font-size: 48px;
+    color: white;
+    font: arial;
+    font-size: 27px;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-left: 206px;
+}
+.tv-img{
+    background-image: url("animal-telugu-gifs.gif");
+    background-size: cover;
+    height: 380px;
+    width: 522px;
+    margin-left: 520px;
+    margin-top: 20px;   
+    position: relative;
+}
+.tv-img::before {
+    content: '';
+    background-image: url("tv.png");
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+.bla-dow{
+    background-size: cover;
+    height: 393px;
+    width: 532px;
+    position: relative;
+}
+.bla-dow::before {
+    content: '';
+    background-image: url("image-12.png");
+    position: absolute;
+    top: 200px;
+    right: 122px;
+    bottom: 44px;
+    margin-left: 130px;
+    margin-top:60px;
+    left: 0;
+  }
+.bla-down{
+    background-image: url("device-pile-in.png");
+    background-size: cover;
+    margin-left: 420px;
+    margin-top: 40px;
+    height: 423px;
+    width: 612px;
+    position: relative;
+    z-index:2;
+}
+.bla-down::before {
+    content: '';
+    background-image: url("vijay-vijay-thalapathy.gif");
+    position: absolute;
+    top: 87px;
+    right: 176px;
+    bottom: 240px;
+    left: 170px;
+    z-index: 1;
+  }
+.faq{
+    background-color: black;
+    height: 1087px;
+    width:auto;
+}
+.pret-1{
+    font-size: 48px;
+    color: white;
+    margin-left: 400px;
+    padding-top: 72px;
+}
+.faq-1{
+    height:100px;
+    width:1170px;
+    background-color: #272727;
+    margin-top: 15px;
+    display: flex;
+    
+}
+.faq-2{
+       height:600px;
+       width:1170px;
+       margin-left: 175px;
+    margin-top:30px;
+}
+.faq-3{
+    font-size: 27px;
+    color: white;
+    width:500px;
+    padding-left: 30px;
+    padding-top: 33px;
+    font-weight: 800;
+    
+}
+.faq-4{
+    font-size: 68px;
+    color: white;
+    margin-left: 570px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+.ema-box{
+    margin-top: 140px;
+}
+.foot-123{
+    width:auto;
+    height: auto;
+    background-color: black;
+}
+ul{
+    margin-top: 29px;
+    margin-left: 140px;
+}
+.foot-12 {
+    font-size: 18px;
+    margin-left: 175px;
+    color: #cbdccb;
+    padding-top:70px ;
+}
+ul a{
+    color: #cbdccb;
+    font-size: 14px;
+}
+.options-1{
+    background-color: transparent;
+    color: white;
+    margin-left: 180px;
+    margin-top:30px;
+    width: 8rem;
+    height: 2.1rem;
+    border-radius: 5%;
+    border-width: 2px;
+    font-weight: 700;
+}
+.options-2{
+    background-color: transparent;
+    color: white;
+    margin-left: 180px;
+    margin-top:30px;
+    padding-bottom: 40px;
+    width: 8rem;
+    font-size: 14px;
+    height: 2.1rem;
+    font: arial;
+    color: #cbdccb;
+}
